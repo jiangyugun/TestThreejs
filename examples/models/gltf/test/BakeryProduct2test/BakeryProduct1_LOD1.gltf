@@ -1,0 +1,217 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 13018,
+      "type": "VEC3",
+      "max": [
+        0.082375101745128632,
+        0.043244738131761551,
+        0.068504497408866882
+      ],
+      "min": [
+        -0.082375101745128632,
+        -0.043244738131761551,
+        -0.068504497408866882
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 13018,
+      "type": "VEC3",
+      "max": [
+        0.99983537197113037,
+        0.99996030330657959,
+        0.999947190284729
+      ],
+      "min": [
+        -0.99991941452026367,
+        -0.99999237060546875,
+        -0.99984550476074219
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 13018,
+      "type": "VEC4",
+      "max": [
+        0.990018367767334,
+        1.0,
+        0.99996054172515869,
+        1.0
+      ],
+      "min": [
+        -0.999376118183136,
+        -0.99986839294433594,
+        -0.99280291795730591,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 13018,
+      "type": "VEC2",
+      "max": [
+        0.99266421794891357,
+        0.99513041973114014
+      ],
+      "min": [
+        0.0072222501039505005,
+        0.0075190002098679543
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 76998,
+      "type": "SCALAR",
+      "max": [
+        13017.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "UnityGLTF (2019.1.0a12)",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "BakeryProduct1_LOD1.bin",
+      "byteLength": 932856
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 156216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 156216,
+      "byteLength": 156216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 312432,
+      "byteLength": 208288
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 520720,
+      "byteLength": 104144
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 624864,
+      "byteLength": 307992
+    }
+  ],
+  "images": [
+    {
+      "uri": "6038_BakeryProduct1_Normal.png",
+      "name": "BakeryProduct1_Normal"
+    },
+    {
+      "uri": "12476_BakeryProduct1_BaseColor.jpg",
+      "name": "BakeryProduct1_BaseColor"
+    },
+    {
+      "uri": "6042_BakeryProduct1_Metallic.png",
+      "name": "BakeryProduct1_Metallic"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9338235,
+          0.900675654,
+          0.8211207,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5,
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 0
+      },
+      "occlusionTexture": {
+        "index": 2
+      },
+      "name": "New Material"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "BakeryProduct1_LOD1"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "BakeryProduct1_LOD1"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9729
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "BakeryProduct1_LOD1"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "BakeryProduct1_Normal"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "BakeryProduct1_BaseColor"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "BakeryProduct1_Metallic"
+    }
+  ]
+}

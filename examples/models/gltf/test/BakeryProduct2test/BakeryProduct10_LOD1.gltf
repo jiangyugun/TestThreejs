@@ -1,0 +1,211 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 23200,
+      "type": "VEC3",
+      "max": [
+        0.065441422164440155,
+        0.026848377659916878,
+        0.063855789601802826
+      ],
+      "min": [
+        -0.065441422164440155,
+        -0.026848377659916878,
+        -0.063855789601802826
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 23200,
+      "type": "VEC3",
+      "max": [
+        0.99980741739273071,
+        0.9999394416809082,
+        0.99956375360488892
+      ],
+      "min": [
+        -0.99991989135742188,
+        -0.99999940395355225,
+        -0.9997372031211853
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 23200,
+      "type": "VEC4",
+      "max": [
+        0.9990849494934082,
+        0.99995183944702148,
+        0.99432533979415894,
+        1.0
+      ],
+      "min": [
+        -0.99851542711257935,
+        -0.99957674741745,
+        -0.99992513656616211,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 23200,
+      "type": "VEC2",
+      "max": [
+        0.988652229309082,
+        0.98756957054138184
+      ],
+      "min": [
+        0.011034624651074409,
+        0.011364530771970749
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 138102,
+      "type": "SCALAR",
+      "max": [
+        23199.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "UnityGLTF (2019.1.0a12)",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "BakeryProduct10_LOD1.bin",
+      "byteLength": 1666008
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 278400
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 278400,
+      "byteLength": 278400
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 556800,
+      "byteLength": 371200
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 928000,
+      "byteLength": 185600
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1113600,
+      "byteLength": 552408
+    }
+  ],
+  "images": [
+    {
+      "uri": "6800_BakeryProduct10_Normal.png",
+      "name": "BakeryProduct10_Normal"
+    },
+    {
+      "uri": "12536_BakeryProduct10_BaseColor.jpg",
+      "name": "BakeryProduct10_BaseColor"
+    },
+    {
+      "uri": "6804_BakeryProduct10_Metallic.png",
+      "name": "BakeryProduct10_Metallic"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5,
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 0
+      },
+      "occlusionTexture": {
+        "index": 2
+      },
+      "name": "New Material"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "BakeryProduct10_LOD1"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "BakeryProduct10_LOD1"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9729
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "BakeryProduct10_LOD1"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "BakeryProduct10_Normal"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "BakeryProduct10_BaseColor"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "BakeryProduct10_Metallic"
+    }
+  ]
+}
